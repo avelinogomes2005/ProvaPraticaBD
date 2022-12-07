@@ -15,7 +15,7 @@ select * from tb_matricula
 insert into tb_matricula(codigo_curso, codigo_aluno)
 values ('4', '4')
 ```
-## Resultado esperado
+## Resultado:
 
 ![01 1](https://user-images.githubusercontent.com/105735037/206176091-7338ef90-0c20-4b06-829f-4a67bee387dd.PNG)
 <br/>
@@ -33,7 +33,7 @@ on tb_aluno.codigo_aluno = tb_matricula.codigo_aluno
 inner join tb_curso
 on tb_curso.codigo_curso = tb_matricula.codigo_curso
 ```
-## Resultado esperado
+## Resultado :
 
 ![02 1](https://user-images.githubusercontent.com/105735037/206176693-7e69f727-cb83-41f3-99d7-150f24229578.PNG)
 

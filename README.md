@@ -1,26 +1,35 @@
-# Respostas Prova Prática de Banco de Dados SQL (consultas/resultado)
-<h1 align="center"> 🔰 Aluno: Raimundo Avelino Gomes Lima | 2°  Informática | PROFESSOR: Adeilson Sales Aragão </h1>
-![Badge Finalizado](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+### <b><h1 align="center">Respostas Prova Prática de Banco de Dados SQL (consultas/resultado)</h1></b>
+<h1 align="center"><i> Aluno: Raimundo Avelino Gomes Lima | 2°  Informática 
+	<br> PROFESSOR: Adeilson Sales Aragão </i></h1>
+<h4 align="center"> 🚧  finished  🚀 Finalizado...  🚧 </h4>
+
 
 ## Dados das Tabelas:
-create table TB_aluno(
-   cod_aluno int primary key,
-	nome_aluno varchar(50) NOT NULL,
-	ano_nascimento date,
-	e_mail varchar(60),
-	sexo varchar NOT NULL
-);
+```
+select * from tb_aluno
+insert into tb_aluno(codigo_aluno, nome_aluno, ano_nasc, email, sexo)
+values ('1', 'Josiel Jardim', '1974-01-01', 'josiel@provaSQL.com.br', 'M')
+values ('2', 'Ana Maria', '1980-04-06', 'ana@provaSQL.com.br', 'F')
+values ('3', 'João Pedro', '1979-03-02', 'joao@provaSQL.com.br', 'M')
 
-create table TB_Curso (
-   cod_curso int primary key,
-	nome_curso varchar (60) NOT NULL
-);
+select * from tb_curso
+insert into tb_curso(codigo_curso, nome_curso)
+values ('1', 'Medicina')
+values ('2', 'Arquitetura')
+values ('3', 'Filosofia')
+values ('4', 'Informática')
+values ('5', 'Jornalismo')
 
-create table TB_Matricula (
-   cod_curso int references TB_curso (cod_curso),
-	cod_aluno int references TB_aluno (cod_aluno)
-);
+select * from tb_matricula
+insert into tb_matricula(codigo_curso, codigo_aluno)
+values ('1', '1')
+values ('1', '2')
+values ('2', '3')
+values ('5', '3');
 
+DELETE FROM tb_curso
+ WHERE codigo_curso = 2; 
+```
 
 
 ## Questão 1:
@@ -156,9 +165,10 @@ and tb_aluno.sexo = 'M'
 
 ------------------------------------------------------------
 
-## Questões teóricas:
+# Questões Teóricas:
+
 ## Questão 1:
-significa “Structured Query Language”, ou “Linguagem de Consulta Estruturada”,
+Significa “Structured Query Language”, ou “Linguagem de Consulta Estruturada”,
 em português. Resumidamente, é uma linguagem de programação para lidar com banco de dados 
 relacional (baseado em tabelas). Foi criado para que vários desenvolvedores pudessem acessar 
 e modificar dados de uma empresa simultaneamente, de maneira descomplicada e unificada.
@@ -182,7 +192,7 @@ excluir (‘delete’).
 A razão para termos tantos tipos de bancos de dados está no fato de que
 eles armazenam e dão acesso a uma enorme variedade de informações. 
 Sem eles, quase nada funciona de modo eficiente. Dos sistemas mais simples 
-aos mais complexos, praticamente todos dependem de bancos de dados.
+aos mais complexos, praticamente todos dependem de bancos de dados. </i>
 
 
 

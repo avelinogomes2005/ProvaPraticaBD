@@ -1,4 +1,27 @@
-# Respostas da Prova Prática de Banco de Dados (consultas/resultado)
+# Respostas Prova Prática de Banco de Dados SQL (consultas/resultado)
+Aluno: Raimundo Avelino Gomes Lima | 2°  Informática | PROFESSOR: Adeilson Sales Aragão
+
+
+## Dados das Tabelas:
+create table TB_aluno(
+   cod_aluno int primary key,
+	nome_aluno varchar(50) NOT NULL,
+	ano_nascimento date,
+	e_mail varchar(60),
+	sexo varchar NOT NULL
+);
+
+create table TB_Curso (
+   cod_curso int primary key,
+	nome_curso varchar (60) NOT NULL
+);
+
+create table TB_Matricula (
+   cod_curso int references TB_curso (cod_curso),
+	cod_aluno int references TB_aluno (cod_aluno)
+);
+
+
 
 ## Questão 1:
 Faça um comando SQL para matricular o aluno “Pedro César” no curso de

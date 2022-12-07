@@ -1,5 +1,5 @@
 # Respostas Prova Prática de Banco de Dados SQL (consultas/resultado)
-<center align= "center"> Aluno: Raimundo Avelino Gomes Lima | 2°  Informática | PROFESSOR: Adeilson Sales Aragão </center>
+🔰 Aluno: Raimundo Avelino Gomes Lima | 2°  Informática | PROFESSOR: Adeilson Sales Aragão
 
 
 ## Dados das Tabelas:
@@ -39,7 +39,8 @@ insert into tb_matricula(codigo_curso, codigo_aluno)
 values ('4', '4')
 ```
 ## Resultado:
-
+![IMG1](https://user-images.githubusercontent.com/102837037/206235258-97676e08-e50c-4df7-8193-e1d26eee7466.PNG)
+![IMG2](https://user-images.githubusercontent.com/102837037/206235275-f216cd4d-4d1b-4cd2-92fb-5c3e14872df9.PNG)
 
 
 
@@ -56,8 +57,7 @@ inner join tb_curso
 on tb_curso.codigo_curso = tb_matricula.codigo_curso
 ```
 ## Resultado:
-
-
+![IMG1](https://user-images.githubusercontent.com/102837037/206235329-e8d9ba0d-3169-40d9-991b-f80d2f48221f.PNG)
 
 
 
@@ -68,7 +68,7 @@ select email
 from tb_aluno where 2022 - ano_nasc >= 18
 ```
 ## Resultado:
-
+![IMG1](https://user-images.githubusercontent.com/102837037/206235399-3884b465-f303-4021-b363-b02d85b3c44b.PNG)
 
 
 
@@ -79,8 +79,7 @@ select count(codigo_aluno)
 from tb_aluno
 ```
 ## Resultado:
-
-
+![IMG1](https://user-images.githubusercontent.com/102837037/206235491-a575d51c-2c60-4b95-98ed-ed2042ffa66b.PNG)
 
 
 
@@ -94,7 +93,7 @@ inner join tb_aluno
 on tb_aluno.codigo_aluno = tb_curso.codigo_curso
 ```
 ## Resultado:
-
+![IMG1](https://user-images.githubusercontent.com/102837037/206235551-e11e4c5b-9c8a-4bf4-9c62-4d96a6411e7f.PNG)
 
 
 
@@ -106,7 +105,7 @@ select nome_aluno
 from tb_aluno where 2022 - ano_nasc >= 18
 ```
 ## Resultado:
-
+![IMG1](https://user-images.githubusercontent.com/102837037/206235606-afe5c319-a082-46b6-ae49-9907d140cbc7.PNG)
 
 
 
@@ -116,8 +115,7 @@ select nome_aluno, sexo
 from tb_aluno where sexo = 'F'
 ```
 ## Resultado:
-
-
+![IMG1](https://user-images.githubusercontent.com/102837037/206235634-2d1d2a50-26ce-4687-a27d-94a577db9ad0.PNG)
 
 
 
@@ -131,8 +129,7 @@ and tb_matricula.codigo_curso = 1
 and tb_aluno.sexo = 'F'
 ```
 ## Resultado:
-
-
+![IMG1](https://user-images.githubusercontent.com/102837037/206235673-7e9efc51-8f05-46f2-b4c0-bbfbb7c6ee7f.PNG)
 
 
 
@@ -142,9 +139,7 @@ select nome_curso
 from tb_curo order by nome_curso asc
 ```
 ## Resultado:
-
-
-
+![IMG1](https://user-images.githubusercontent.com/102837037/206235734-5b504276-4b32-44d6-bdbe-3f95b0adf3ac.PNG)
 
 
 

@@ -1,5 +1,5 @@
 # Respostas Prova Prática de Banco de Dados SQL (consultas/resultado)
-< h3 align = "center" > Aluno: Raimundo Avelino Gomes Lima | 2°  Informática | PROFESSOR: Adeilson Sales Aragão </h3>
+<center> Aluno: Raimundo Avelino Gomes Lima | 2°  Informática | PROFESSOR: Adeilson Sales Aragão </center>
 
 
 ## Dados das Tabelas:

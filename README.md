@@ -1,6 +1,6 @@
 # Respostas Prova Prática de Banco de Dados SQL (consultas/resultado)
-🔰 Aluno: Raimundo Avelino Gomes Lima | 2°  Informática | PROFESSOR: Adeilson Sales Aragão
-
+<h1 align="center"> 🔰 Aluno: Raimundo Avelino Gomes Lima | 2°  Informática | PROFESSOR: Adeilson Sales Aragão </h1>
+![Badge Finalizado](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 ## Dados das Tabelas:
 create table TB_aluno(
@@ -153,4 +153,37 @@ and tb_matricula.codigo_curso = 5
 and tb_aluno.sexo = 'M'
 ```
 ## Resultado:
+
+------------------------------------------------------------
+
+## Questões teóricas:
+## Questão 1:
+significa “Structured Query Language”, ou “Linguagem de Consulta Estruturada”,
+em português. Resumidamente, é uma linguagem de programação para lidar com banco de dados 
+relacional (baseado em tabelas). Foi criado para que vários desenvolvedores pudessem acessar 
+e modificar dados de uma empresa simultaneamente, de maneira descomplicada e unificada.
+A programação SQL pode ser usada para analisar ou executar tarefas em tabelas, principalmente 
+através dos seguintes comandos: inserir (‘insert’), pesquisar (‘search’), atualizar (‘update’) e 
+excluir (‘delete’).
+
+## Questão 2:
+
+## Questão 3:
+* Consulta aos dados;
+* Inserir, atualizar e apagar linhas numa tabela;
+* Criar, modificar e apagar objectos de uma base de dados (tabelas, 
+  índices, vistas, restrições, sequências, etc);
+* Controlar e auditar o acesso aos objectos armazenados na base de dados;
+* Garantir a consistência dos dados;
+
+## Questão 4:
+
+## Questão 5:
+A razão para termos tantos tipos de bancos de dados está no fato de que
+eles armazenam e dão acesso a uma enorme variedade de informações. 
+Sem eles, quase nada funciona de modo eficiente. Dos sistemas mais simples 
+aos mais complexos, praticamente todos dependem de bancos de dados.
+
+
+
 

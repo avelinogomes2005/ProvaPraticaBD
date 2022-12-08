@@ -1,12 +1,10 @@
 ### <b><h1 align="center">Respostas Prova Prática de Banco de Dados SQL (consultas/resultado)</h1></b>
 <h1 align="center"><i> Aluno: Raimundo Avelino Gomes Lima | 2°  Informática 
-	<br> PROFESSOR: Adeilson Sales Aragão </i></h1>
+        <br> PROFESSOR: Adeilson Sales Aragão </i></h1>
 <h4 align="center"> 🚧  finished  🚀 Finalizado...  🚧 </h4>
 
-
 ## Dados das Tabelas:
-```
-select * from tb_aluno
+``` select * from tb_aluno
 insert into tb_aluno(codigo_aluno, nome_aluno, ano_nasc, email, sexo)
 values ('1', 'Josiel Jardim', '1974-01-01', 'josiel@provaSQL.com.br', 'M')
 values ('2', 'Ana Maria', '1980-04-06', 'ana@provaSQL.com.br', 'F')
@@ -27,10 +25,7 @@ values ('1', '2')
 values ('2', '3')
 values ('5', '3');
 
-DELETE FROM tb_curso
- WHERE codigo_curso = 2; 
 ```
-
 
 ## Questão 1:
 Faça um comando SQL para matricular o aluno “Pedro César” no curso de
@@ -167,7 +162,7 @@ and tb_aluno.sexo = 'M'
 
 # Questões Teóricas:
 
-## Questão 1:
+## Questão 1: 
 Significa “Structured Query Language”, ou “Linguagem de Consulta Estruturada”,
 em português. Resumidamente, é uma linguagem de programação para lidar com banco de dados 
 relacional (baseado em tabelas). Foi criado para que vários desenvolvedores pudessem acessar 
@@ -176,7 +171,10 @@ A programação SQL pode ser usada para analisar ou executar tarefas em tabelas,
 através dos seguintes comandos: inserir (‘insert’), pesquisar (‘search’), atualizar (‘update’) e 
 excluir (‘delete’).
 
-## Questão 2:
+## Questão 2: 
+* O SQL desenvolvido no início dos anos 70 nos laboratórios da IBM, dentro do prjeto "System R", que tinha objetivo demonstrar a viabilidade da implementação do modelo relacional proposto por EF Codd, nome sequela, acrônimo para "Structured English Query Language".
+* A linguagem é um grande padrão de banco de dados, ela é mais usada por sua simplicidade e facilidade de uso. É uma linguagem declarativa em oposição a outras linguagens processuais.
+* O SQL foi originalmente criado pela IBM, essa expansão de mercado levou a necessidade de ser criado e adaptado um padrão para a linguagem
 
 ## Questão 3:
 * Consulta aos dados;
@@ -186,9 +184,9 @@ excluir (‘delete’).
 * Controlar e auditar o acesso aos objectos armazenados na base de dados;
 * Garantir a consistência dos dados;
 
-## Questão 4:
+## Questão 4: 
 
-## Questão 5:
+## Questão 5: 
 A razão para termos tantos tipos de bancos de dados está no fato de que
 eles armazenam e dão acesso a uma enorme variedade de informações. 
 Sem eles, quase nada funciona de modo eficiente. Dos sistemas mais simples 

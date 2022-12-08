@@ -1,4 +1,4 @@
-### <b><h1 align="center">Respostas Prova Prática de Banco de Dados SQL (consultas/resultado)</h1></b>
+### <b><h1 align="center">Resolução Prova Prática de Banco de Dados SQL (consultas/resultado)</h1></b>
 <h1 align="center"><i> Aluno: Raimundo Avelino Gomes Lima | 2°  Informática 
         <br> PROFESSOR: Adeilson Sales Aragão </i></h1>
 <h4 align="center"> 🚧  finished  🚀 Finalizado...  🚧 </h4>
@@ -149,14 +149,15 @@ from tb_curo order by nome_curso asc
 
 ## Questão 10:
 ```sql
-select tb_aluno.nome_aluno as homens_em_Jornalismo
+select tb_aluno.nome_aluno as homens_em_Arquitetura
 from tb_aluno
 inner join tb_matricula
-on tb_matricula.codigo_aluno = tb_aluno.codigo_aluno
-and tb_matricula.codigo_curso = 5
+on tb_matricula.cod_aluno = tb_aluno.cod_aluno
+and tb_matricula.cod_curso = 2
 and tb_aluno.sexo = 'M'
 ```
 ## Resultado:
+![IMG1](https://user-images.githubusercontent.com/102837037/206476246-4c769d9c-8c69-44dc-8da4-6cdbbcfa184e.png)
 
 ------------------------------------------------------------
 
@@ -185,6 +186,9 @@ excluir (‘delete’).
 * Garantir a consistência dos dados;
 
 ## Questão 4: 
+Comando SELECT é utilizado para extrair os dados das tabelas de um banco de dados. Ele pode extrair dados de uma ou mais tabelas ao mesmo tempo, executando desde simples consultas até comandos mais complexos, fazendo buscas, junções, filtros comparativos, ordenações e diversos outros itens.
+* Cláusulas OBRIGATÓRIAS: Select.
+* Cláusulas OPCIONAIS: From.
 
 ## Questão 5: 
 A razão para termos tantos tipos de bancos de dados está no fato de que
